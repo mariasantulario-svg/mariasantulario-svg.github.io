@@ -26,8 +26,8 @@ window.productos = [
 
     // === SANIDAD ===
     { titulo: 'Patient Records & Clinical Documentation · Healthcare English', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/uczpd', area: 'Sanidad', nivel: 'GS', novedad: false },
-    { titulo: 'Medical Conditions and Patient History', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/3189401981698085b337e0b4ec14b5f0', area: 'Sanidad', nivel: 'GS', novedad: false }, // revisa nivel
-    { titulo: 'Healthcare Vocabulary App', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/3049401981698003b778c225e7d20307', area: 'Sanidad', nivel: null, novedad: false }, // verifica que sea el destino correcto
+    { titulo: 'Medical Conditions and Patient History', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/3189401981698085b337e0b4ec14b5f0', area: 'Sanidad', nivel: 'GS', novedad: false }, // nivel GS confirmado 11 ago 2026
+    { titulo: 'Healthcare Vocabulary App', tipo: 'gratis', enlace: 'https://healthcare-documentation-and.onrender.com/', area: 'Sanidad', nivel: null, novedad: false }, // app alojada en Render (verificada 11 ago 2026)
 
     // === ADMINISTRACIÓN Y GESTIÓN ===
     { titulo: 'English Workbook · Company Internship', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/32e940198169806eb05df2abaed04201', area: 'Administración y Gestión', nivel: 'Básica', novedad: false },
