@@ -16,7 +16,7 @@
 window.productos = [
     // === PAU / BACHILLERATO ===
     { titulo: 'Pack 4 Simulacros PAU Valencia 2026', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/jsbdvl', area: 'PAU', nivel: null, novedad: false },
-    { titulo: 'PAU Madrid 2026 · 6 Simulacros + Pack Profesor', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/paumadrid26', area: 'PAU', nivel: null, novedad: true },
+    { titulo: 'PAU Madrid 2026 · 6 Simulacros + Pack Profesor', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/paumadrid26', area: 'PAU', nivel: null, novedad: false },
     { titulo: 'PAU Catalunya 2025-2026 · Pack 4 simulacres', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/paucat', area: 'PAU', nivel: null, novedad: true },
     { titulo: 'PAU Murcia 2026 · Pack 7 exámenes (UMU)', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/paumurcia', area: 'PAU', nivel: null, novedad: false },
     { titulo: 'The Geopolitics Bundle · PAU Valencia', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/goygry', area: 'PAU', nivel: null, novedad: false },
@@ -24,6 +24,7 @@ window.productos = [
     { titulo: 'The Fate of Ophelia · PAU', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/gyhpi', area: 'PAU', nivel: null, novedad: false },
     { titulo: 'Super Pau Test', tipo: 'gratis', enlace: 'https://mariasantulario-svg.github.io/SuperPau/', area: 'PAU', nivel: null, novedad: false },
     { titulo: 'Simulacro PAU Inglés CV · Aura Farming', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/Aura-Farming-3ce94019816980f2a6cfeded34e46c02', area: 'PAU', nivel: null, novedad: true },
+    { titulo: 'Aura Farming Classroom Pack · 4º ESO', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/erktjd', area: 'PAU', nivel: null, novedad: true },
 
     // === SANIDAD ===
     { titulo: 'Patient Records & Clinical Documentation · Healthcare English', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/uczpd', area: 'Sanidad', nivel: 'GS', novedad: false },
