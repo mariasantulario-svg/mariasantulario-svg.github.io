@@ -358,7 +358,7 @@ class Component extends DCLogic {
   //    tipo    : "pago"  o  "gratis"
   //    enlace  : URL completa. Gumroad si es de pago; Drive, Notion o GitHub si es gratis.
   //    area    : "PAU" | "Sanidad" | "Administración y Gestión" | "Comercio y Marketing" |
-  //              "Electricidad y Electrónica" | "Fabricación Mecánica" | "Madera, Mueble y Corcho" | "Transversal"
+  //              "Electricidad y Electrónica" | "Fabricación Mecánica" | "Madera, Mueble y Corcho" | "Transversal" | "1º ESO Atención Educativa"
   //    nivel   : "Básica" | "GM" | "GS" | null   (null = sin nivel: úsalo en PAU, Transversal o recursos para toda la familia)
   //    novedad : true para que salga en la tira "What's New"; false si no.
   //  La página coloca cada producto solo según sus etiquetas (no hay que repetirlo).
@@ -374,7 +374,7 @@ class Component extends DCLogic {
     { area: 'Comercio y Marketing', title: 'Comercio y Marketing', subtitle: '', slot: 'comercio' },
     { area: 'Electricidad y Electrónica', title: 'Electricidad y Electrónica', subtitle: 'Instalaciones Eléctricas', slot: 'electricidad' },
     { area: 'Fabricación Mecánica', title: 'Fabricación Mecánica', subtitle: 'Soldadura y Calderería', slot: 'fabricacion' },
-    { area: 'Madera, Mueble y Corcho', title: 'Madera, Mueble y Corcho', subtitle: 'Carpintería y Mueble', slot: 'madera' },
+    { area: 'Madera, Mueble y Corcho', title: 'Madera, Mueble y Corcho', subtitle: 'Carpintería y Mueble', slot: 'madera' }, { area: '1º ESO Atención Educativa', title: '1º ESO Atención Educativa', subtitle: 'Alternativa a Religión en Secundaria', slot: 'atencioneducativa', tag: 'Secundaria', intro: 'Sesiones completas para la hora de Atención Educativa.', generalLabel: 'Sesiones' },
   ];
 
   state = { sub: null, comments: (window.comentarios || []).slice(), formName: '', formText: '', submitted: false };
@@ -425,13 +425,13 @@ class Component extends DCLogic {
     const groups = [];
     // Zona "Para toda la familia": productos del área con nivel null. Solo si hay alguno.
     const general = this._productos.filter((p) => p.area === area && p.nivel === null);
-    if (general.length) groups.push(this._grupo('Para toda la familia', general));
+    if (general.length) groups.push(this._grupo(fam.generalLabel || 'Para toda la familia', general));
     // Solo añadimos un nivel si tiene materiales; los vacíos se omiten.
     niveles.forEach((n) => {
       const g = this._grupo(n[1], this._productos.filter((p) => p.area === area && p.nivel === n[0]));
       if (g.hasItems) groups.push(g);
     });
-    this.open({ title: fam.title, subtitle: fam.subtitle || '', tag: 'Familia FP', intro: 'Materiales de la familia profesional, agrupados por nivel.', groups: groups });
+    this.open({ title: fam.title, subtitle: fam.subtitle || '', tag: fam.tag || 'Familia FP', intro: fam.intro || 'Materiales de la familia profesional, agrupados por nivel.', groups: groups });
   }
 
   _abrirFree() {
