@@ -436,7 +436,7 @@ class Component extends DCLogic {
 
   _abrirFree() {
     // Categorías = áreas (en este orden). PAU se muestra como "Pruebas PAU"; el resto usa su propio nombre.
-    const orden = ['PAU', 'Sanidad', 'Administración y Gestión', 'Comercio y Marketing', 'Electricidad y Electrónica', 'Fabricación Mecánica', 'Madera, Mueble y Corcho', 'Transversal'];
+    const orden = ['PAU', 'Sanidad', 'Administración y Gestión', 'Comercio y Marketing', 'Electricidad y Electrónica', 'Fabricación Mecánica', 'Madera, Mueble y Corcho', 'Transversal', '1º ESO Atención Educativa'];
     const gratis = this._productos.filter((p) => p.tipo === 'gratis');
     const groups = orden
       .map((area) => this._grupo(area === 'PAU' ? 'Pruebas PAU' : area, gratis.filter((p) => p.area === area), true))
