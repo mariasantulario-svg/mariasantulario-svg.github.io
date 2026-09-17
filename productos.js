@@ -8,7 +8,7 @@
 //   enlace  : URL completa
 //   area    : 'PAU' | 'Sanidad' | 'Administración y Gestión' | 'Comercio y Marketing' |
 //             'Electricidad y Electrónica' | 'Fabricación Mecánica' |
-//             'Madera, Mueble y Corcho' | 'Transversal'
+//             'Madera, Mueble y Corcho' | 'Transversal' | '1º ESO Atención Educativa'
 //   nivel   : 'Básica' | 'GM' | 'GS' | null (para toda la familia; PAU y Transversal siempre null)
 //   novedad : true sale en la tira What's New (máximo 3 a la vez)
 // =====================================================================
@@ -54,4 +54,7 @@ window.productos = [
 
     // === TRANSVERSAL ===
     { titulo: 'A Lesson on Labour Rights · Industrial History', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/31c9401981698080b148d6a77c6bcb93', area: 'Transversal', nivel: null, novedad: false },
+
+     // === 1º ESO ATENCIÓN EDUCATIVA ===
+    { titulo: 'Juegos de cartas · Sesión completa de Atención Educativa', tipo: 'gratis', enlace: 'https://mariasantulario-svg.github.io/Atencion_Educativa_1ESO_sesion_juegos_de_cartas.docx', area: '1º ESO Atención Educativa', nivel: null, novedad: false },
   ];
