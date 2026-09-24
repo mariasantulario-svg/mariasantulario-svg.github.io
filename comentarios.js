@@ -7,4 +7,5 @@
 // =====================================================================
 
 window.comentarios = [
+  { name: 'Esther', role: 'Visitante', text: 'Tengo varios materiales de María ya y he de decir que se nota que vienen de una persona con mucha experiencia que sabe lo que hace falta en el aula y que le dedica muchísimo trabajo a todo lo que publica' },
 ];
