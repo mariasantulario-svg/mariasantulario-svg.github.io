@@ -23,7 +23,7 @@ window.productos = [
     { titulo: 'Faces, Flags & Surveillance · PAU Valencia', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/facesandflags', area: 'PAU', nivel: null, novedad: false },
     { titulo: 'The Fate of Ophelia · PAU', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/gyhpi', area: 'PAU', nivel: null, novedad: false },
     { titulo: 'Super Pau Test', tipo: 'gratis', enlace: 'https://mariasantulario-svg.github.io/SuperPau/', area: 'PAU', nivel: null, novedad: false },
-    { titulo: 'Simulacro PAU Inglés CV · Aura Farming', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/Aura-Farming-3ce94019816980f2a6cfeded34e46c02', area: 'PAU', nivel: null, novedad: true },
+    { titulo: 'Simulacro PAU Inglés CV · Aura Farming', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/Aura-Farming-3ce94019816980f2a6cfeded34e46c02', area: 'PAU', nivel: null, novedad: false },
     { titulo: 'Aura Farming Classroom Pack · 4º ESO', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/erktjd', area: 'PAU', nivel: null, novedad: true },
     { titulo: 'Tenses Review Pack · A2+/B1 · Moodle ready', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/zfjskg', area: 'PAU', nivel: null, novedad: true },
 
@@ -54,6 +54,7 @@ window.productos = [
     { titulo: 'Electrical and Power Tools', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/315940198169800a9db7f0fb9a0ac0e7', area: 'Madera, Mueble y Corcho', nivel: 'GM', novedad: false },
 
     // === TRANSVERSAL ===
+    { titulo: 'The Astro-HR Interview · Speaking activity B1 · HTML + fichas', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/astro-hr-interview', area: 'Transversal', nivel: null, novedad: true },
     { titulo: 'A Lesson on Labour Rights · Industrial History', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/31c9401981698080b148d6a77c6bcb93', area: 'Transversal', nivel: null, novedad: false },
 
      // === 1º ESO ATENCIÓN EDUCATIVA ===
