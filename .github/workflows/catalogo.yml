@@ -1,4 +1,5 @@
-# Actualiza catalogo.html y sitemap.xml cada vez que cambia productos.js.
+# Actualiza catalogo.html, las paginas de producto (carpeta productos/) y sitemap.xml
+# cada vez que cambia productos.js o fichas.js.
 # Funciona solo: al anadir un recurso a la landing, GitHub lo ejecuta y guarda el resultado.
 name: Actualizar catalogo y sitemap
 
@@ -7,6 +8,7 @@ on:
     branches: [main]
     paths:
       - 'productos.js'
+      - 'fichas.js'
       - 'scripts/generar-catalogo.js'
   workflow_dispatch:
 
@@ -21,21 +23,23 @@ jobs:
   generar:
     runs-on: ubuntu-latest
     steps:
-      - name: Descargar el repositorio
+      - name: Descargar la version mas reciente del repositorio
         uses: actions/checkout@v5
+        with:
+          ref: main
 
-      - name: Generar catalogo y sitemap
+      - name: Generar catalogo, paginas de producto y sitemap
         run: node scripts/generar-catalogo.js
 
       - name: Guardar cambios si los hay
         run: |
-          if git diff --quiet -- catalogo.html sitemap.xml && [ -z "$(git ls-files --others --exclude-standard catalogo.html sitemap.xml)" ]; then
+          if [ -z "$(git status --porcelain -- catalogo.html sitemap.xml productos)" ]; then
             echo "Nada que actualizar"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add catalogo.html sitemap.xml
-          git commit -m "Catalogo y sitemap actualizados automaticamente"
+          git add -A catalogo.html sitemap.xml productos
+          git commit -m "Catalogo, paginas de producto y sitemap actualizados automaticamente"
           git pull --rebase origin main
           git push origin HEAD:main
