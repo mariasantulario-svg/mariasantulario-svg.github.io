@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catálogo de recursos de inglés para FP, Bachillerato y PAU · FP Teaching Lab</title>
+<meta name="description" content="Materiales de inglés de FP Teaching Lab: simulacros PAU por comunidad, recursos para ciclos de FP por familia profesional y materiales gratuitos.">
+<link rel="canonical" href="https://mariasantulario-svg.github.io/catalogo.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Catálogo de recursos de inglés para FP, Bachillerato y PAU · FP Teaching Lab">
+<meta property="og:description" content="Materiales de inglés de FP Teaching Lab: simulacros PAU por comunidad, recursos para ciclos de FP por familia profesional y materiales gratuitos.">
+<meta property="og:url" content="https://mariasantulario-svg.github.io/catalogo.html">
+<meta property="og:locale" content="es_ES">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --tinta: #1F2A44; --fondo: #F2EDE6; --tarjeta: #FAF7F1; --texto2: #5A6472;
+    --suave: #8C95A6; --cabecera2: #AEB6C4; --acento: #C0392B;
+    --borde: rgba(31,42,68,0.09); --linea: rgba(31,42,68,0.12);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--fondo); color: var(--tinta);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-weight: 400;
+    -webkit-font-smoothing: antialiased; line-height: 1.5; }
+  a { color: inherit; }
+  header.banda { background: var(--tinta); }
+  header.banda .dentro { max-width: 720px; margin: 0 auto; padding: 20px 22px; }
+  .marca { font-family: 'Fraunces', serif; font-weight: 600; font-size: 21px; color: var(--tarjeta); text-decoration: none; }
+  .handle { display: block; font-size: 13.5px; color: var(--cabecera2); font-weight: 500; margin-top: 4px; }
+  main { max-width: 720px; margin: 0 auto; padding: 26px 18px 44px; }
+  .volver { display: inline-block; font-size: 13px; font-weight: 500; color: var(--texto2); text-decoration: none; margin-bottom: 18px; }
+  .volver:hover { color: var(--tinta); }
+  h1 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 30px; line-height: 1.15; margin: 0 0 10px; }
+  .intro { color: var(--texto2); font-size: 15px; margin: 0 0 8px; max-width: 58ch; }
+  .fecha { color: var(--suave); font-size: 12.5px; margin: 0 0 22px; }
+  nav.indice { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 8px; }
+  nav.indice a { font-size: 12.5px; font-weight: 500; text-decoration: none; color: var(--tinta);
+    background: var(--tarjeta); border: 1px solid var(--borde); border-radius: 999px; padding: 6px 12px;
+    transition: border-color .15s ease; }
+  nav.indice a:hover { border-color: rgba(31,42,68,0.3); }
+  .seccion { margin-top: 36px; scroll-margin-top: 16px; }
+  .seccion h2 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 23px; line-height: 1.2; margin: 0; }
+  .seccion .sub { color: var(--texto2); font-size: 13.5px; margin: 4px 0 0; }
+  .grupo h3 { display: flex; align-items: center; gap: 9px; margin: 20px 0 10px;
+    font-size: 11.5px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--texto2); }
+  .grupo h3::after { content: ''; flex: 1; height: 1px; background: var(--linea); }
+  .lista { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr; gap: 10px; }
+  @media (min-width: 560px) { .lista { grid-template-columns: 1fr 1fr; } }
+  .item a { display: flex; flex-direction: column; gap: 8px; height: 100%; text-decoration: none;
+    background: var(--tarjeta); border: 1px solid var(--borde); border-radius: 14px; padding: 14px 16px 13px;
+    box-shadow: 0 1px 2px rgba(31,42,68,0.04), 0 10px 26px -16px rgba(31,42,68,0.25);
+    transition: border-color .15s ease, box-shadow .15s ease; }
+  .item a:hover { border-color: rgba(31,42,68,0.22); box-shadow: 0 1px 2px rgba(31,42,68,0.05), 0 14px 30px -16px rgba(31,42,68,0.32); }
+  .item-titulo { font-family: 'Fraunces', serif; font-weight: 600; font-size: 16.5px; line-height: 1.25; }
+  .item-cta { margin-top: auto; font-size: 12.5px; color: var(--texto2); }
+  .item-cta span { color: var(--acento); }
+  .tag { display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+    padding: 3px 9px; border-radius: 999px; }
+  .tag-gratis { color: var(--tinta); border: 1px solid rgba(31,42,68,0.28); }
+  .tag-pago { color: var(--texto2); background: rgba(31,42,68,0.06); }
+  footer { max-width: 720px; margin: 0 auto; padding: 0 18px 40px; color: var(--suave); font-size: 12.5px; }
+  footer a { color: var(--texto2); }
+  a:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
+</style>
+</head>
+<body>
+  <header class="banda">
+    <div class="dentro">
+      <a class="marca" href="https://mariasantulario-svg.github.io/">FP Teaching Lab</a>
+      <span class="handle">@ESPteacherMar</span>
+    </div>
+  </header>
+  <main>
+    <a class="volver" href="https://mariasantulario-svg.github.io/">← Volver a la portada</a>
+    <h1>Recursos de inglés para FP, Bachillerato y PAU</h1>
+    <p class="intro">Todos los materiales de inglés de FP Teaching Lab en una sola página, ordenados por etapa y familia profesional. Los recursos gratuitos se abren en Notion o GitHub; los de pago, en Gumroad.</p>
+    <p class="fecha">Actualizado el 25 de septiembre de 2026 · 28 recursos</p>
+    <nav class="indice" aria-label="Secciones del catálogo">
+        <a href="#pau">Bachillerato y PAU</a>
+        <a href="#sanidad">Sanidad</a>
+        <a href="#administracion-y-gestion">Administración y Gestión</a>
+        <a href="#comercio-y-marketing">Comercio y Marketing</a>
+        <a href="#electricidad-y-electronica">Electricidad y Electrónica</a>
+        <a href="#fabricacion-mecanica">Fabricación Mecánica</a>
+        <a href="#madera-mueble-y-corcho">Madera, Mueble y Corcho</a>
+        <a href="#transversal">Transversal</a>
+        <a href="#1-eso-atencion-educativa">1º ESO Atención Educativa</a>
+    </nav>
+    <section id="pau" class="seccion">
+      <h2>Bachillerato y PAU</h2>
+      <p class="sub">Simulacros y packs de preparación del examen de inglés, por comunidad autónoma.</p>
+      <div class="grupo">
+        <h3>Comunitat Valenciana</h3>
+        <ul class="lista">
+        <li class="item">
+          <a href="https://mariasantuario.gumroad.com/l/jsbdvl" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-pago">Gumroad</span></span>
+            <span class="item-titulo">Pack 4 Simulacros PAU Valencia 2026</span>
+            <span class="item-cta">Ver en Gumroad <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        <li class="item">
+          <a href="https://mariasantuario.gumroad.com/l/goygry" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-pago">Gumroad</span></span>
+            <span class="item-titulo">The Geopolitics Bundle · PAU Valencia</span>
+            <span class="item-cta">Ver en Gumroad <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        <li class="item">
+          <a href="https://mariasantuario.gumroad.com/l/facesandflags" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-pago">Gumroad</span></span>
+            <span class="item-titulo">Faces, Flags &amp; Surveillance · PAU Valencia</span>
+            <span class="item-cta">Ver en Gumroad <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        <li class="item">
+          <a href="https://mariasantuario.gumroad.com/l/gyhpi" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-pago">Gumroad</span></span>
+            <span class="item-titulo">The Fate of Ophelia · PAU</span>
+            <span class="item-cta">Ver en Gumroad <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        </ul>
+      </div>
+      <div class="grupo">
+        <h3>Comunidad de Madrid</h3>
+        <ul class="lista">
+        <li class="item">
+          <a href="https://mariasantuario.gumroad.com/l/paumadrid26" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-pago">Gumroad</span></span>
+            <span class="item-titulo">PAU Madrid 2026 · 6 Simulacros + Pack Profesor</span>
+            <span class="item-cta">Ver en Gumroad <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        </ul>
+      </div>
+      <div class="grupo">
+        <h3>Región de Murcia</h3>
+        <ul class="lista">
+        <li class="item">
+          <a href="https://mariasantuario.gumroad.com/l/paumurcia" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-pago">Gumroad</span></span>
+            <span class="item-titulo">PAU Murcia 2026 · Pack 7 exámenes (UMU)</span>
+            <span class="item-cta">Ver en Gumroad <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        </ul>
+      </div>
+      <div class="grupo">
+        <h3>Catalunya</h3>
+        <ul class="lista">
+        <li class="item">
+          <a href="https://mariasantuario.gumroad.com/l/paucat" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-pago">Gumroad</span></span>
+            <span class="item-titulo">PAU Catalunya 2025-2026 · Pack 4 simulacres</span>
+            <span class="item-cta">Ver en Gumroad <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        </ul>
+      </div>
+      <div class="grupo">
+        <h3>Otros materiales</h3>
+        <ul class="lista">
+        <li class="item">
+          <a href="https://mariasantulario-svg.github.io/SuperPau/" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-gratis">Gratis</span></span>
+            <span class="item-titulo">Super Pau Test</span>
+            <span class="item-cta">Abrir recurso <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        <li class="item">
+          <a href="https://fpteachinglab.notion.site/Aura-Farming-3ce94019816980f2a6cfeded34e46c02" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-gratis">Gratis</span></span>
+            <span class="item-titulo">Simulacro PAU Inglés CV · Aura Farming</span>
+            <span class="item-cta">Abrir recurso <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        <li class="item">
+          <a href="https://mariasantuario.gumroad.com/l/erktjd" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-pago">Gumroad</span></span>
+            <span class="item-titulo">Aura Farming Classroom Pack · 4º ESO</span>
+            <span class="item-cta">Ver en Gumroad <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        <li class="item">
+          <a href="https://mariasantuario.gumroad.com/l/zfjskg" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-pago">Gumroad</span></span>
+            <span class="item-titulo">Tenses Review Pack · A2+/B1 · Moodle ready</span>
+            <span class="item-cta">Ver en Gumroad <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        </ul>
+      </div>
+    </section>
+    <section id="sanidad" class="seccion">
+      <h2>Sanidad</h2>
+      <div class="grupo">
+        <h3>Para toda la familia</h3>
+        <ul class="lista">
+        <li class="item">
+          <a href="https://healthcare-documentation-and.onrender.com/" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-gratis">Gratis</span></span>
+            <span class="item-titulo">Healthcare Vocabulary App</span>
+            <span class="item-cta">Abrir recurso <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        </ul>
+      </div>
+      <div class="grupo">
+        <h3>Grado Superior</h3>
+        <ul class="lista">
+        <li class="item">
+          <a href="https://mariasantuario.gumroad.com/l/uczpd" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-pago">Gumroad</span></span>
+            <span class="item-titulo">Patient Records &amp; Clinical Documentation · Healthcare English</span>
+            <span class="item-cta">Ver en Gumroad <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        <li class="item">
+          <a href="https://fpteachinglab.notion.site/3189401981698085b337e0b4ec14b5f0" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-gratis">Gratis</span></span>
+            <span class="item-titulo">Medical Conditions and Patient History</span>
+            <span class="item-cta">Abrir recurso <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        </ul>
+      </div>
+    </section>
+    <section id="administracion-y-gestion" class="seccion">
+      <h2>Administración y Gestión</h2>
+      <div class="grupo">
+        <h3>FP Básica</h3>
+        <ul class="lista">
+        <li class="item">
+          <a href="https://fpteachinglab.notion.site/32e940198169806eb05df2abaed04201" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-gratis">Gratis</span></span>
+            <span class="item-titulo">English Workbook · Company Internship</span>
+            <span class="item-cta">Abrir recurso <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        </ul>
+      </div>
+      <div class="grupo">
+        <h3>Grado Superior</h3>
+        <ul class="lista">
+        <li class="item">
+          <a href="https://fpteachinglab.notion.site/32d940198169809692eaf6fcd14e7623" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-gratis">Gratis</span></span>
+            <span class="item-titulo">Geopolitical Disruption and International Trade</span>
+            <span class="item-cta">Abrir recurso <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        </ul>
+      </div>
+    </section>
+    <section id="comercio-y-marketing" class="seccion">
+      <h2>Comercio y Marketing</h2>
+      <div class="grupo">
+        <h3>FP Básica</h3>
+        <ul class="lista">
+        <li class="item">
+          <a href="https://mariasantuario.gumroad.com/l/shop-internship" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-pago">Gumroad</span></span>
+            <span class="item-titulo">The Shop Internship · FP Básica Comercio</span>
+            <span class="item-cta">Ver en Gumroad <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        <li class="item">
+          <a href="https://fpteachinglab.notion.site/30494019816980e69a26e36feddb1dd1" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-gratis">Gratis</span></span>
+            <span class="item-titulo">Handling Difficult Customers</span>
+            <span class="item-cta">Abrir recurso <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        </ul>
+      </div>
+    </section>
+    <section id="electricidad-y-electronica" class="seccion">
+      <h2>Electricidad y Electrónica</h2>
+      <p class="sub">Instalaciones Eléctricas</p>
+      <div class="grupo">
+        <h3>Para toda la familia</h3>
+        <ul class="lista">
+        <li class="item">
+          <a href="https://fpteachinglab.notion.site/333940198169814eb895ca7b662ba8b5" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-gratis">Gratis</span></span>
+            <span class="item-titulo">English Activities Workbook · Electrical Internship</span>
+            <span class="item-cta">Abrir recurso <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        </ul>
+      </div>
+      <div class="grupo">
+        <h3>Grado Medio</h3>
+        <ul class="lista">
+        <li class="item">
+          <a href="https://fpteachinglab.notion.site/30394019816980cb97ffe24f63081dbf" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-gratis">Gratis</span></span>
+            <span class="item-titulo">When the Lights Go Out</span>
+            <span class="item-cta">Abrir recurso <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        <li class="item">
+          <a href="https://fpteachinglab.notion.site/31d9401981698042b518e387bc0cd874" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-gratis">Gratis</span></span>
+            <span class="item-titulo">Electricity &amp; Electronics · Emergency Procedures</span>
+            <span class="item-cta">Abrir recurso <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        </ul>
+      </div>
+    </section>
+    <section id="fabricacion-mecanica" class="seccion">
+      <h2>Fabricación Mecánica</h2>
+      <p class="sub">Soldadura y Calderería</p>
+      <div class="grupo">
+        <h3>Grado Medio</h3>
+        <ul class="lista">
+        <li class="item">
+          <a href="https://fpteachinglab.notion.site/300940198169811f994afe306d7edd05" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-gratis">Gratis</span></span>
+            <span class="item-titulo">Manual vs. Electric Welding in Railway Systems</span>
+            <span class="item-cta">Abrir recurso <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        </ul>
+      </div>
+      <div class="grupo">
+        <h3>Grado Superior</h3>
+        <ul class="lista">
+        <li class="item">
+          <a href="https://mariasantuario.gumroad.com/l/cinlnl" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-pago">Gumroad</span></span>
+            <span class="item-titulo">The Apprenticeship Company Project · ABP Pack</span>
+            <span class="item-cta">Ver en Gumroad <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        </ul>
+      </div>
+    </section>
+    <section id="madera-mueble-y-corcho" class="seccion">
+      <h2>Madera, Mueble y Corcho</h2>
+      <p class="sub">Carpintería y Mueble</p>
+      <div class="grupo">
+        <h3>Grado Medio</h3>
+        <ul class="lista">
+        <li class="item">
+          <a href="https://fpteachinglab.notion.site/2cd940198169809ea5e8c8d08cfe2352" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-gratis">Gratis</span></span>
+            <span class="item-titulo">Christmas Tree Harvesting</span>
+            <span class="item-cta">Abrir recurso <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        <li class="item">
+          <a href="https://fpteachinglab.notion.site/315940198169800a9db7f0fb9a0ac0e7" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-gratis">Gratis</span></span>
+            <span class="item-titulo">Electrical and Power Tools</span>
+            <span class="item-cta">Abrir recurso <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        </ul>
+      </div>
+    </section>
+    <section id="transversal" class="seccion">
+      <h2>Transversal</h2>
+      <p class="sub">Materiales válidos para cualquier ciclo de FP.</p>
+      <div class="grupo">
+        <h3>Todos los ciclos</h3>
+        <ul class="lista">
+        <li class="item">
+          <a href="https://mariasantuario.gumroad.com/l/astro-hr-interview" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-pago">Gumroad</span></span>
+            <span class="item-titulo">The Astro-HR Interview · Speaking activity B1 · HTML + fichas</span>
+            <span class="item-cta">Ver en Gumroad <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        <li class="item">
+          <a href="https://fpteachinglab.notion.site/31c9401981698080b148d6a77c6bcb93" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-gratis">Gratis</span></span>
+            <span class="item-titulo">A Lesson on Labour Rights · Industrial History</span>
+            <span class="item-cta">Abrir recurso <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        </ul>
+      </div>
+    </section>
+    <section id="1-eso-atencion-educativa" class="seccion">
+      <h2>1º ESO Atención Educativa</h2>
+      <p class="sub">Alternativa a Religión en Secundaria</p>
+      <div class="grupo">
+        <h3>Sesiones</h3>
+        <ul class="lista">
+        <li class="item">
+          <a href="https://mariasantulario-svg.github.io/Atencion_Educativa_1ESO_sesion_juegos_de_cartas.docx" target="_blank" rel="noopener">
+            <span class="item-top"><span class="tag tag-gratis">Gratis</span></span>
+            <span class="item-titulo">Juegos de cartas · Sesión completa de Atención Educativa</span>
+            <span class="item-cta">Abrir recurso <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer>
+    FP Teaching Lab · <a href="https://www.instagram.com/espteachermar/" rel="noopener">@ESPteacherMar en Instagram</a> · <a href="https://mariasantuario.gumroad.com/" rel="noopener">Tienda en Gumroad</a>
+  </footer>
+</body>
+</html>
