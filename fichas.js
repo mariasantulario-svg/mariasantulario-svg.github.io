@@ -186,4 +186,58 @@ window.fichas = [
       { p: '¿Sustituye a la formación en seguridad eléctrica?', r: 'No. La inspección es una tarea de lengua con vocabulario real del oficio, y la hoja del alumnado lo indica.' },
     ],
   },
+  {
+    enlace: 'https://mariasantuario.gumroad.com/l/english-for-electricians',
+    slug: 'english-for-electricians',
+    h1: 'English for Electricians: cuaderno de inglés para FP Básica de Electricidad (Term 1)',
+    meta: 'Cuaderno de inglés A1-A2 para el primer trimestre de FP Básica de Electricidad y Electrónica: seis unidades, solucionario, 8 audios MP3 y versión Word editable.',
+    etiqueta: 'Electricidad · FP Básica · A1-A2',
+    entradilla: 'Un cuaderno de inglés para el primer trimestre de FP Básica de Electricidad y Electrónica, nivel A1-A2, con el inglés del oficio. Sirve como material de aula o como cuaderno de refuerzo.',
+    imagen: 'https://public-files.gumroad.com/rd0lpeh1ukr128r5plqi6q6apfov',
+    imagenAlt: 'Portada de English for Electricians',
+    precio: 'Precio libre desde 2 € (sugerido: 4 €)',
+    precioNum: '2.00',
+    secciones: [
+      {
+        titulo: 'Las seis unidades',
+        texto: [
+          'El inglés del oficio: presentarse en el trabajo, seguridad, herramientas y acciones del taller, números y medidas, colores y materiales, y componentes y circuitos.',
+        ],
+        lista: [
+          'Unit 1. Meeting people at work',
+          'Unit 2. Safety first',
+          'Unit 3. Tools and actions',
+          'Unit 4. Numbers and measurements',
+          'Unit 5. Colours and materials',
+          'Unit 6. Components and circuits',
+        ],
+      },
+      {
+        titulo: 'Qué incluye',
+        lista: [
+          'Cuaderno del alumnado de 39 páginas (A4), en PDF y en Word editable.',
+          '6 unidades, cada una con un Unit check de una página (20 puntos).',
+          'Term 1 review de dos páginas con autoevaluación.',
+          'Listas de vocabulario inglés-español por unidad.',
+          'Solucionario aparte (PDF y Word), con respuestas alternativas aceptadas y los guiones de audio.',
+          '8 pistas MP3: 6 listenings y 2 de pronunciación de números (thirteen / thirty).',
+          'Teacher instructions (PDF y Word).',
+        ],
+      },
+      {
+        titulo: 'Cómo está diseñado',
+        lista: [
+          'Gramática en cuadros con pasos numerados. Los ejemplos del cuadro no coinciden con las respuestas de la práctica, así que el alumnado tiene que aplicar la regla.',
+          'Word banks con dos palabras extra y respuestas sin patrones repetidos.',
+          'Writing con andamiaje: texto modelo, texto guiado con huecos, plan y redacción por párrafos.',
+          'Audios con voces de síntesis en inglés británico, a velocidad natural. Cada listening suena dos veces.',
+        ],
+      },
+    ],
+    faq: [
+      { p: '¿Sirve como cuaderno de refuerzo?', r: 'Sí. Cada unidad sigue el mismo orden y el alumnado puede trabajarla por su cuenta: los cuadros de gramática explican paso a paso y cada unidad remite a su lista de vocabulario.' },
+      { p: '¿Puedo adaptarlo a mi grupo?', r: 'Sí. El cuaderno, el solucionario y las teacher instructions vienen también en Word editable.' },
+      { p: '¿Qué archivos se descargan?', r: 'Tres PDF (cuaderno, solucionario y teacher instructions), los mismos tres documentos en Word y 8 pistas MP3.' },
+    ],
+  },
 ];
