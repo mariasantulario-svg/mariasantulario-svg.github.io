@@ -195,8 +195,8 @@ window.fichas = [
     entradilla: 'Un cuaderno de inglés para el primer trimestre de FP Básica de Electricidad y Electrónica, nivel A1-A2, con el inglés del oficio. Sirve como material de aula o como cuaderno de refuerzo.',
     imagen: 'https://public-files.gumroad.com/rd0lpeh1ukr128r5plqi6q6apfov',
     imagenAlt: 'Portada de English for Electricians',
-    precio: 'Precio libre desde 2 € (sugerido: 4 €)',
-    precioNum: '2.00',
+    precio: 'Precio libre desde 4 € (sugerido: 6 €)',
+    precioNum: '4.00',
     secciones: [
       {
         titulo: 'Las seis unidades',
