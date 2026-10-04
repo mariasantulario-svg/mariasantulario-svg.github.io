@@ -47,6 +47,7 @@ window.productos = [
     { titulo: 'Electricity & Electronics · Emergency Procedures', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/31d9401981698042b518e387bc0cd874', area: 'Electricidad y Electrónica', nivel: 'GM', novedad: false },
     { titulo: "Could Frankenstein's Lab Pass an Electrical Inspection? · Halloween", tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/frankenstein-electricity', area: 'Electricidad y Electrónica', nivel: 'GM', novedad: true },
     { titulo: "Could Frankenstein's Lab Pass an Electrical Inspection? · Halloween", tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/frankenstein-electricity', area: 'Electricidad y Electrónica', nivel: 'GS', novedad: false }, // mismo producto, versión GS
+    { titulo: 'English for Electricians · FP Básica · Term 1', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/english-for-electricians', area: 'Electricidad y Electrónica', nivel: 'Básica', novedad: true },
 
     // === FABRICACIÓN MECÁNICA (Soldadura y Calderería) ===
     { titulo: 'The Apprenticeship Company Project · ABP Pack', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/cinlnl', area: 'Fabricación Mecánica', nivel: 'GS', novedad: false },
@@ -57,7 +58,7 @@ window.productos = [
     { titulo: 'Electrical and Power Tools', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/315940198169800a9db7f0fb9a0ac0e7', area: 'Madera, Mueble y Corcho', nivel: 'GM', novedad: false },
 
     // === TRANSVERSAL ===
-    { titulo: 'The Astro-HR Interview · Speaking activity B1 · HTML + fichas', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/astro-hr-interview', area: 'Transversal', nivel: null, novedad: true },
+    { titulo: 'The Astro-HR Interview · Speaking activity B1 · HTML + fichas', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/astro-hr-interview', area: 'Transversal', nivel: null, novedad: false },
     { titulo: 'A Lesson on Labour Rights · Industrial History', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/31c9401981698080b148d6a77c6bcb93', area: 'Transversal', nivel: null, novedad: false },
 
      // === 1º ESO ATENCIÓN EDUCATIVA ===
