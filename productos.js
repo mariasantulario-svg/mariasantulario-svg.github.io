@@ -26,7 +26,7 @@ window.productos = [
     { titulo: 'Simulacro PAU Inglés CV · Aura Farming', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/Aura-Farming-3ce94019816980f2a6cfeded34e46c02', area: 'PAU', nivel: null, novedad: false },
     { titulo: 'Current Affairs PAU Pack · Vol. 1 · PAU Valencia', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/Current-Affairs-PAU-Pack-Vol-1-3dd9401981698150a5d0d6a976ad7a01', area: 'PAU', nivel: null, novedad: true },
     { titulo: 'Aura Farming Classroom Pack · 4º ESO', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/erktjd', area: 'PAU', nivel: null, novedad: false },
-    { titulo: 'Tenses Review Pack · A2+/B1 · Moodle ready', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/zfjskg', area: 'PAU', nivel: null, novedad: true },
+    { titulo: 'Tenses Review Pack · A2+/B1 · Moodle ready', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/zfjskg', area: 'PAU', nivel: null, novedad: false },
 
     // === SANIDAD ===
     { titulo: 'Patient Records & Clinical Documentation · Healthcare English', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/uczpd', area: 'Sanidad', nivel: 'GS', novedad: false },
@@ -45,6 +45,8 @@ window.productos = [
     { titulo: 'English Activities Workbook · Electrical Internship', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/333940198169814eb895ca7b662ba8b5', area: 'Electricidad y Electrónica', nivel: null, novedad: false },
     { titulo: 'When the Lights Go Out', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/30394019816980cb97ffe24f63081dbf', area: 'Electricidad y Electrónica', nivel: 'GM', novedad: false },
     { titulo: 'Electricity & Electronics · Emergency Procedures', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/31d9401981698042b518e387bc0cd874', area: 'Electricidad y Electrónica', nivel: 'GM', novedad: false },
+    { titulo: "Could Frankenstein's Lab Pass an Electrical Inspection? · Halloween", tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/frankenstein-electricity', area: 'Electricidad y Electrónica', nivel: 'GM', novedad: true },
+    { titulo: "Could Frankenstein's Lab Pass an Electrical Inspection? · Halloween", tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/frankenstein-electricity', area: 'Electricidad y Electrónica', nivel: 'GS', novedad: false }, // mismo producto, versión GS
 
     // === FABRICACIÓN MECÁNICA (Soldadura y Calderería) ===
     { titulo: 'The Apprenticeship Company Project · ABP Pack', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/cinlnl', area: 'Fabricación Mecánica', nivel: 'GS', novedad: false },

@@ -140,4 +140,50 @@ window.fichas = [
       { p: '¿El marcador necesita internet?', r: 'No. Funciona sin conexión, sin registro y sin instalar nada.' },
     ],
   },
+  {
+    enlace: 'https://mariasantuario.gumroad.com/l/frankenstein-electricity',
+    slug: 'frankenstein-electrical-inspection',
+    h1: "Could Frankenstein's Lab Pass an Electrical Inspection? Lección de Halloween de inglés para Electricidad (GM y GS)",
+    meta: 'Lección de Halloween de inglés para Electricidad, GM y GS: escena de Frankenstein (1931), inspección eléctrica con códigos reales, listening y diapositivas HTML.',
+    etiqueta: 'Electricidad · GM y GS · Halloween',
+    entradilla: 'Una lección de Halloween de dos sesiones para el inglés profesional de Electricidad y Electrónica. El alumnado ve la escena de la creación de Frankenstein (1931), descubre quién construyó de verdad aquellas máquinas e inspecciona el laboratorio como un inspector eléctrico actual, con los códigos reales de los informes británicos.',
+    imagen: 'https://public-files.gumroad.com/b10xvda1pz7mxlwu0htsefzazh91',
+    imagenAlt: "Portada de Could Frankenstein's Lab Pass an Electrical Inspection?",
+    precio: 'Precio libre desde 4 €',
+    precioNum: '4.00',
+    secciones: [
+      {
+        titulo: 'Dos versiones',
+        texto: [
+          'Al comprar se elige una. Cada versión trae su propia hoja, su presentación y su audio.',
+        ],
+        lista: [
+          "Grado Medio (A2+/B1). Gramática: must, mustn't y should.",
+          'Grado Superior (B1+/B2). Gramática: pasiva con modales (must be, should be, must not be + participio).',
+        ],
+      },
+      {
+        titulo: 'Las dos sesiones',
+        lista: [
+          "Sesión 1, It's alive!: warm-up con la escena de la película, fact or film myth, reading sobre el electricista de Hollywood que creó las chispas, vocabulario del equipo del laboratorio, ficha biográfica y predicción con los códigos de inspección C1, C2 y C3.",
+          'Sesión 2, The inspection: localizar los riesgos en un plano del laboratorio, la checklist del inspector (protecciones, toma de tierra, diferencial, aislamiento), listening, informe de inspección, pasos del aislamiento seguro y aviso para la puerta del laboratorio.',
+          'Extensión opcional: Battery or cable?',
+        ],
+      },
+      {
+        titulo: 'Qué incluye',
+        lista: [
+          'Hoja del alumnado en Word editable y en PDF.',
+          'Guía docente en español con tiempos, solucionario completo, textos modelo y fuentes.',
+          'Presentación interactiva en un solo archivo HTML: cronómetro, respuestas una a una y arrastrar y soltar, con la escena de la película y el audio dentro.',
+          'Listening: las notas de voz del inspector en MP3.',
+        ],
+      },
+    ],
+    faq: [
+      { p: '¿Necesito internet en clase?', r: 'No. La presentación se abre con doble clic en Chrome o Edge, sin instalar nada y sin conexión: el vídeo y el audio van dentro del archivo.' },
+      { p: '¿Para qué módulos sirve?', r: 'Para el inglés profesional de Electricidad y Electrónica: módulo 0156 en Grado Medio y 0179 en Grado Superior (RD 659/2023). Trabaja comprensión oral y escrita, expresión oral y escrita.' },
+      { p: '¿Sustituye a la formación en seguridad eléctrica?', r: 'No. La inspección es una tarea de lengua con vocabulario real del oficio, y la hoja del alumnado lo indica.' },
+    ],
+  },
 ];
