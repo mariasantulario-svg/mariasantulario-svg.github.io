@@ -24,7 +24,8 @@ window.productos = [
     { titulo: 'The Fate of Ophelia · PAU', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/gyhpi', area: 'PAU', nivel: null, novedad: false },
     { titulo: 'Super Pau Test', tipo: 'gratis', enlace: 'https://mariasantulario-svg.github.io/SuperPau/', area: 'PAU', nivel: null, novedad: false },
     { titulo: 'Simulacro PAU Inglés CV · Aura Farming', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/Aura-Farming-3ce94019816980f2a6cfeded34e46c02', area: 'PAU', nivel: null, novedad: false },
-    { titulo: 'Current Affairs PAU Pack · Vol. 1 · PAU Valencia', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/Current-Affairs-PAU-Pack-Vol-1-3dd9401981698150a5d0d6a976ad7a01', area: 'PAU', nivel: null, novedad: true },
+    { titulo: 'Current Affairs PAU Pack · Vol. 1 · PAU Valencia', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/Current-Affairs-PAU-Pack-Vol-1-3dd9401981698150a5d0d6a976ad7a01', area: 'PAU', nivel: null, novedad: false },
+    { titulo: 'Corrector interactivo de writings · Skill para Claude', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/Corrector-interactivo-de-writings-con-Claude-Gu-a-para-profesores-33d94019816981fcbc54d3ece1008273', area: 'PAU', nivel: null, novedad: true },
     { titulo: 'Aura Farming Classroom Pack · 4º ESO', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/erktjd', area: 'PAU', nivel: null, novedad: false },
     { titulo: 'Tenses Review Pack · A2+/B1 · Moodle ready', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/zfjskg', area: 'PAU', nivel: null, novedad: false },
 
