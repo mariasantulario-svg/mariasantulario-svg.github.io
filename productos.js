@@ -8,7 +8,7 @@
 //   enlace  : URL completa
 //   area    : 'PAU' | 'Sanidad' | 'Administración y Gestión' | 'Comercio y Marketing' |
 //             'Electricidad y Electrónica' | 'Fabricación Mecánica' |
-//             'Madera, Mueble y Corcho' | 'Transversal' | '1º ESO Atención Educativa'
+//             'Madera, Mueble y Corcho' | 'Transversal' | 'ESO' | '1º ESO Atención Educativa'
 //   nivel   : 'Básica' | 'GM' | 'GS' | null (para toda la familia; PAU y Transversal siempre null)
 //   novedad : true sale en la tira What's New (máximo 3 a la vez)
 // =====================================================================
@@ -27,7 +27,6 @@ window.productos = [
     { titulo: 'Simulacro PAU Inglés CV · Aura Farming', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/Aura-Farming-3ce94019816980f2a6cfeded34e46c02', area: 'PAU', nivel: null, novedad: false },
     { titulo: 'Current Affairs PAU Pack · Vol. 1 · PAU Valencia', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/Current-Affairs-PAU-Pack-Vol-1-3dd9401981698150a5d0d6a976ad7a01', area: 'PAU', nivel: null, novedad: false },
     { titulo: 'Corrector interactivo de writings · Skill para Claude', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/Corrector-interactivo-de-writings-con-Claude-Gu-a-para-profesores-33d94019816981fcbc54d3ece1008273', area: 'PAU', nivel: null, novedad: false },
-    { titulo: 'Aura Farming Classroom Pack · 4º ESO', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/erktjd', area: 'PAU', nivel: null, novedad: false },
     { titulo: 'Tenses Review Pack · A2+/B1 · Moodle ready', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/zfjskg', area: 'PAU', nivel: null, novedad: false },
 
     // === SANIDAD ===
@@ -49,7 +48,7 @@ window.productos = [
     { titulo: 'Electricity & Electronics · Emergency Procedures', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/31d9401981698042b518e387bc0cd874', area: 'Electricidad y Electrónica', nivel: 'GM', novedad: false },
     { titulo: "Could Frankenstein's Lab Pass an Electrical Inspection? · Halloween", tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/frankenstein-electricity', area: 'Electricidad y Electrónica', nivel: 'GM', novedad: true },
     { titulo: "Could Frankenstein's Lab Pass an Electrical Inspection? · Halloween", tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/frankenstein-electricity', area: 'Electricidad y Electrónica', nivel: 'GS', novedad: false }, // mismo producto, versión GS
-    { titulo: 'English for Electricians · FP Básica · Term 1', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/english-for-electricians', area: 'Electricidad y Electrónica', nivel: 'Básica', novedad: true },
+    { titulo: 'English for Electricians · FP Básica · Term 1', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/english-for-electricians', area: 'Electricidad y Electrónica', nivel: 'Básica', novedad: false },
 
     // === FABRICACIÓN MECÁNICA (Soldadura y Calderería) ===
     { titulo: 'The Apprenticeship Company Project · ABP Pack', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/cinlnl', area: 'Fabricación Mecánica', nivel: 'GS', novedad: false },
@@ -62,6 +61,10 @@ window.productos = [
     // === TRANSVERSAL ===
     { titulo: 'The Astro-HR Interview · Speaking activity B1 · HTML + fichas', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/astro-hr-interview', area: 'Transversal', nivel: null, novedad: false },
     { titulo: 'A Lesson on Labour Rights · Industrial History', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/31c9401981698080b148d6a77c6bcb93', area: 'Transversal', nivel: null, novedad: false },
+
+    // === ESO ===
+    { titulo: 'Villains on the Payroll · Inglés 4º ESO B1 · Halloween', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/mnxtaf', area: 'ESO', nivel: null, novedad: true },
+    { titulo: 'Aura Farming Classroom Pack · 4º ESO', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/erktjd', area: 'ESO', nivel: null, novedad: false },
 
      // === 1º ESO ATENCIÓN EDUCATIVA ===
     { titulo: 'Juegos de cartas · Sesión completa de Atención Educativa', tipo: 'gratis', enlace: 'https://mariasantulario-svg.github.io/Atencion_Educativa_1ESO_sesion_juegos_de_cartas.docx', area: '1º ESO Atención Educativa', nivel: null, novedad: false },

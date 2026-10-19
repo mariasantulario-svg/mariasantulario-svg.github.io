@@ -141,6 +141,79 @@ window.fichas = [
     ],
   },
   {
+    enlace: 'https://mariasantuario.gumroad.com/l/mnxtaf',
+    slug: 'villains-on-the-payroll',
+    h1: 'Villains on the Payroll: pack de Halloween de inglés para 4º ESO (B1)',
+    meta: 'Pack de Halloween de inglés para 4º ESO (B1): villanos de cine con oficio, reading, listening con podcast, vocabulario de ropa y de juegos, present perfect, past perfect y used to, versión interactiva y juego Guess the Suspect.',
+    etiqueta: '4º ESO · B1 · Halloween',
+    entradilla: 'Leatherface viene de una familia que trabajaba en un matadero, Jack Torrance es el encargado de invierno de un hotel vacío y Annie Wilkes fue enfermera. Este pack de Halloween parte de los villanos del cine de terror, de sus oficios, sus herramientas y su vestuario, para trabajar el inglés de 4º de ESO a nivel B1. Funciona como repaso de la primera unidad del curso: ropa y moda, vocabulario de juegos, present perfect, past perfect y used to.',
+    imagen: 'https://public-files.gumroad.com/x37n3ss86557jn1v2g6jykquahya',
+    imagenAlt: 'Portada de Villains on the Payroll',
+    precio: 'Precio libre desde 4 €',
+    precioNum: '4.00',
+    secciones: [
+      {
+        titulo: 'Ficha del alumnado',
+        texto: [
+          'Word editable y PDF, 5 páginas, con solucionario en página aparte. Junto a cada título, los mismos iconos que en la versión interactiva (pizarra o ficha) con la tarea en una o dos palabras.',
+        ],
+        lista: [
+          'Film Files: cuatro clásicos del terror presentados con su póster.',
+          'Reading en tres partes con preguntas de opción múltiple y verdadero o falso.',
+          'Villain File: oficio, herramienta y relación entre ambos para cada villano.',
+          'Killer Looks: texto de huecos con vocabulario de ropa sobre el vestuario de cuatro villanos, con foto de cada uno.',
+          'Behind the Screams: listening de un podcast de cine sobre Pesadilla en Elm Street, con verdadero o falso y frases para completar.',
+          'Spot the Mistake: seis frases con un error de tiempo verbal que hay que encontrar y corregir.',
+          'Your Films: preguntas para hablar en parejas, con frases de apoyo.',
+          'Deberes: Watch Like a Detective, texto de huecos con vocabulario de juegos.',
+        ],
+      },
+      {
+        titulo: 'Versión interactiva y audio',
+        texto: [
+          'Un solo archivo HTML que funciona sin conexión, y el podcast en MP3 (2 min 44 s) con dos presentadores. La transcripción está en la guía y en la versión interactiva.',
+        ],
+        lista: [
+          'Las mismas actividades con corrección inmediata y pistas que remiten al texto.',
+          'Traducción al castellano de las palabras más difíciles al pulsarlas.',
+          'Audio integrado y transcripción.',
+          'Modo proyector: letra grande y botón Show answers en cada sección para corregir con toda la clase.',
+          'Meet the Suspects: carrusel con 20 tarjetas de villanos clásicos y recientes y tres actores reales, cada una con tres datos y una pregunta modelo.',
+          'Guess the Suspect: ¿Quién es quién? por equipos. El programa elige un sospechoso y muestra la carta boca abajo; los equipos preguntan por turnos con las estructuras de la unidad y el que lo nombra se lleva el punto. Marcador, tablero que se baraja en cada ronda y carta que se gira al final.',
+        ],
+      },
+      {
+        titulo: 'Guía del profesorado',
+        texto: [
+          'Word y PDF, 5 páginas, en inglés: mapa de vocabulario y gramática por sección, temporización (dos sesiones más el juego), instrucciones del juego con la tabla numerada de los 20 sospechosos (la chuleta para responder a los equipos), solucionario completo y transcripción del podcast.',
+        ],
+      },
+      {
+        titulo: 'Gramática y vocabulario',
+        lista: [
+          'Present perfect (ever, for y since), past perfect, used to, past simple, going to y will.',
+          'Ropa: clothing, plain, sleeveless, layer, suit, sleeves, ripped, price tag, glamorous.',
+          'Juegos y misterio: suspect, figure out, focus, draw a conclusion, read someone\'s mind, remind, recall, think over.',
+          'Oficios y herramientas.',
+        ],
+      },
+      {
+        titulo: 'Tres formas de usarlo',
+        lista: [
+          'En papel: la ficha y el solucionario en Word o PDF.',
+          'En pantalla: la versión interactiva, individual y con corrección inmediata, también en el móvil.',
+          'Proyectado: el modo proyector para corregir en grupo y el juego Guess the Suspect con toda la clase.',
+        ],
+      },
+    ],
+    faq: [
+      { p: '¿Para qué nivel es?', r: 'Nivel B1, pensado para 4º de ESO.' },
+      { p: '¿Las películas son aptas para la clase?', r: 'Algunas películas son para mayores de edad. Los textos y las tarjetas hablan de oficios, ropa y herramientas, sin contenido explícito. Las imágenes son pósters y fotogramas de las películas, incluidos para uso en el aula.' },
+      { p: '¿Hay que instalar algo para la versión interactiva?', r: 'No. Es un solo archivo HTML que funciona sin conexión, con el audio integrado.' },
+      { p: '¿Qué archivos se descargan?', r: 'La ficha del alumnado y la guía del profesorado en Word y PDF, la versión interactiva en HTML y el podcast en MP3.' },
+    ],
+  },
+  {
     enlace: 'https://mariasantuario.gumroad.com/l/frankenstein-electricity',
     slug: 'frankenstein-electrical-inspection',
     h1: "Could Frankenstein's Lab Pass an Electrical Inspection? Lección de Halloween de inglés para Electricidad (GM y GS)",

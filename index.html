@@ -242,7 +242,7 @@
             <button sc-camel-on-click="{{ f.open }}" style="position:relative; text-align:left; width:100%; box-sizing:border-box; min-height:148px; background:#FAF7F1; border:1px solid rgba(31,42,68,0.09); border-radius:17px; box-shadow:0 1px 2px rgba(31,42,68,0.04), 0 12px 30px -18px rgba(31,42,68,0.30); padding:16px; display:flex; flex-direction:column; justify-content:flex-end; cursor:pointer; font-family:inherit; overflow:visible; transition:transform .18s ease, box-shadow .18s ease;" style-hover="transform:translateY(-3px); box-shadow:0 1px 2px rgba(31,42,68,0.05), 0 20px 40px -20px rgba(31,42,68,0.36);">
               <span data-illustration-slot="{{ f.slot }}" style="position:absolute; top:-18px; right:14px; width:84px; height:84px; pointer-events:none; z-index:1;"></span>
               <div style="position:relative; z-index:2; padding-right:30px;">
-                <div style="font-family:'Inter',sans-serif; font-size:10px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#8C95A6; margin-bottom:6px;">Familia FP</div>
+                <div style="font-family:'Inter',sans-serif; font-size:10px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#8C95A6; margin-bottom:6px;">{{ f.etiqueta }}</div>
                 <div style="font-family:'Fraunces',serif; font-weight:600; font-size:17px; line-height:1.12; color:#1F2A44;">{{ f.title }}</div>
                 <sc-if value="{{ f.subtitle }}" hint-placeholder-val="{{ null }}"><div style="font-family:'Inter',sans-serif; font-size:11.5px; color:#5A6472; margin-top:4px; line-height:1.35;">{{ f.subtitle }}</div></sc-if>
                 <div style="font-family:'Inter',sans-serif; font-size:12.5px; font-weight:600; color:#C0392B; margin-top:10px;">Ver familia →</div>
@@ -358,7 +358,7 @@ class Component extends DCLogic {
   //    tipo    : "pago"  o  "gratis"
   //    enlace  : URL completa. Gumroad si es de pago; Drive, Notion o GitHub si es gratis.
   //    area    : "PAU" | "Sanidad" | "Administración y Gestión" | "Comercio y Marketing" |
-  //              "Electricidad y Electrónica" | "Fabricación Mecánica" | "Madera, Mueble y Corcho" | "Transversal" | "1º ESO Atención Educativa"
+  //              "Electricidad y Electrónica" | "Fabricación Mecánica" | "Madera, Mueble y Corcho" | "Transversal" | "ESO" | "1º ESO Atención Educativa"
   //    nivel   : "Básica" | "GM" | "GS" | null   (null = sin nivel: úsalo en PAU, Transversal o recursos para toda la familia)
   //    novedad : true para que salga en la tira "What's New"; false si no.
   //  La página coloca cada producto solo según sus etiquetas (no hay que repetirlo).
@@ -374,7 +374,8 @@ class Component extends DCLogic {
     { area: 'Comercio y Marketing', title: 'Comercio y Marketing', subtitle: '', slot: 'comercio' },
     { area: 'Electricidad y Electrónica', title: 'Electricidad y Electrónica', subtitle: 'Instalaciones Eléctricas', slot: 'electricidad' },
     { area: 'Fabricación Mecánica', title: 'Fabricación Mecánica', subtitle: 'Soldadura y Calderería', slot: 'fabricacion' },
-    { area: 'Madera, Mueble y Corcho', title: 'Madera, Mueble y Corcho', subtitle: 'Carpintería y Mueble', slot: 'madera' }, { area: '1º ESO Atención Educativa', title: '1º ESO Atención Educativa', subtitle: 'Alternativa a Religión en Secundaria', slot: 'atencioneducativa', tag: 'Secundaria', intro: 'Sesiones completas para la hora de Atención Educativa.', generalLabel: 'Sesiones' },
+    { area: 'Madera, Mueble y Corcho', title: 'Madera, Mueble y Corcho', subtitle: 'Carpintería y Mueble', slot: 'madera' },
+    { area: 'ESO', title: 'ESO', subtitle: 'Inglés de Secundaria', slot: 'eso', tag: 'Secundaria', intro: 'Materiales de inglés para la ESO. El curso va en el título de cada recurso.', generalLabel: 'Materiales de aula' }, { area: '1º ESO Atención Educativa', title: '1º ESO Atención Educativa', subtitle: 'Alternativa a Religión en Secundaria', slot: 'atencioneducativa', tag: 'Secundaria', intro: 'Sesiones completas para la hora de Atención Educativa.', generalLabel: 'Sesiones' },
   ];
 
   state = { sub: null, comments: (window.comentarios || []).slice(), formName: '', formText: '', submitted: false };
@@ -436,7 +437,7 @@ class Component extends DCLogic {
 
   _abrirFree() {
     // Categorías = áreas (en este orden). PAU se muestra como "Pruebas PAU"; el resto usa su propio nombre.
-    const orden = ['PAU', 'Sanidad', 'Administración y Gestión', 'Comercio y Marketing', 'Electricidad y Electrónica', 'Fabricación Mecánica', 'Madera, Mueble y Corcho', 'Transversal', '1º ESO Atención Educativa'];
+    const orden = ['PAU', 'Sanidad', 'Administración y Gestión', 'Comercio y Marketing', 'Electricidad y Electrónica', 'Fabricación Mecánica', 'Madera, Mueble y Corcho', 'Transversal', 'ESO', '1º ESO Atención Educativa'];
     const gratis = this._productos.filter((p) => p.tipo === 'gratis');
     const groups = orden
       .map((area) => this._grupo(area === 'PAU' ? 'Pruebas PAU' : area, gratis.filter((p) => p.area === area), true))
@@ -533,7 +534,7 @@ class Component extends DCLogic {
       onText: (e) => this.setState({ formText: e.target.value }),
       submitComment: (e) => this.submitComment(e),
       goHome: () => this.goHome(),
-      familias: this._familias.map((f) => Object.assign({}, f, { open: () => this._abrirFamilia(f) })),
+      familias: this._familias.map((f) => Object.assign({}, f, { etiqueta: f.tag || 'Familia FP', open: () => this._abrirFamilia(f) })),
       openFree: () => this._abrirFree(),
       openBach: () => this._abrirBach(),
     };

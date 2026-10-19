@@ -105,13 +105,14 @@ const FAMILIAS = [
   { area: 'Madera, Mueble y Corcho', titulo: 'Madera, Mueble y Corcho', sub: 'Carpintería y Mueble' },
   { area: 'Transversal', titulo: 'Transversal', sub: 'Materiales válidos para cualquier ciclo de FP.', general: 'Todos los ciclos' },
 ];
+const ESO_INGLES = { area: 'ESO', titulo: 'ESO', sub: 'Inglés de Secundaria. El curso va en el título de cada recurso.', general: 'Materiales de aula' };
 const ESO = { area: '1º ESO Atención Educativa', titulo: '1º ESO Atención Educativa', sub: 'Alternativa a Religión en Secundaria', general: 'Sesiones' };
 const NIVELES = [['Básica', 'FP Básica'], ['GM', 'Grado Medio'], ['GS', 'Grado Superior']];
 
 // Seccion del catalogo a la que pertenece un area (para enlazar de vuelta).
 function seccionDeArea(area) {
   if (area === 'PAU') return { id: 'pau', titulo: 'Bachillerato y PAU' };
-  const fam = FAMILIAS.find((f) => f.area === area) || (area === ESO.area ? ESO : null);
+  const fam = FAMILIAS.find((f) => f.area === area) || (area === ESO_INGLES.area ? ESO_INGLES : null) || (area === ESO.area ? ESO : null);
   return { id: slug(area), titulo: fam ? fam.titulo : area };
 }
 
@@ -257,9 +258,10 @@ ${cuerpo}
   secciones.push(seccion('pau', 'Bachillerato y PAU', 'Simulacros y packs de preparación del examen de inglés, por comunidad autónoma.',
     comunidades.map(([c, etiqueta]) => grupo(etiqueta, pau.filter((p) => comunidad(p) === c)))));
   FAMILIAS.forEach((f) => secciones.push(seccionFamilia(f)));
+  secciones.push(seccionFamilia(ESO_INGLES));
   secciones.push(seccionFamilia(ESO));
   // Cualquier area nueva que no este en la lista anterior sale al final, para no perder nada.
-  const conocidas = new Set(['PAU', ...FAMILIAS.map((f) => f.area), ESO.area]);
+  const conocidas = new Set(['PAU', ...FAMILIAS.map((f) => f.area), ESO_INGLES.area, ESO.area]);
   [...new Set(productos.map((p) => p.area).filter((a) => !conocidas.has(a)))]
     .forEach((a) => secciones.push(seccionFamilia({ area: a, titulo: a })));
 
