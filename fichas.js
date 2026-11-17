@@ -358,4 +358,42 @@ window.fichas = [
       { p: '¿Qué archivos se descargan?', r: 'Tres PDF (cuaderno, solucionario y teacher instructions), los mismos tres documentos en Word y 8 pistas MP3.' },
     ],
   },
+  {
+    enlace: 'https://mariasantuario.gumroad.com/l/obgddp',
+    slug: 'the-empty-chair-narrative-writing-pack',
+    h1: 'The Empty Chair: pack de reading y writing para enseñar la narración en pasado en 4º ESO (B1)',
+    meta: 'Pack de inglés para 4º ESO, nivel B1: práctica interactiva e imprimible y examen de Reading and Writing en dos versiones para trabajar la narración en pasado.',
+    etiqueta: '4º ESO · B1 · Reading y Writing',
+    entradilla: 'Un pack de reading y writing para enseñar la narración en pasado (past simple y past perfect con conectores de secuencia y de tiempo) en 4º ESO, nivel B1. Las dos historias del pack parten de la misma idea: dos personas viven lo mismo y lo entienden de manera distinta.',
+    imagen: 'https://public-files.gumroad.com/mvapgv7b22jazt63dduqqdu7z9f4',
+    imagenAlt: 'Portada de The Empty Chair, Narrative Writing Pack',
+    precio: 'Precio libre desde 3 €',
+    precioNum: '3.00',
+    secciones: [
+      {
+        titulo: 'Contenido',
+        lista: [
+          'The Empty Chair: práctica con el formato del examen, algo más fácil. Es el blog de Leo, un chico nuevo que le dice "Maybe later" al club de juegos de mesa. Incluye matching, true or false, conectores y un writing con dos opciones.',
+          'Reading and Writing Test, "Keep It As Long As You Want": Maya, la chaqueta vaquera de su abuela y un malentendido con su mejor amiga. Written Comprehension (20 puntos) y Written Production (10 puntos).',
+          'Vocabulario y gramática de la unidad 1 de Options 4: lively, daydream, figure out, draw a conclusion y pay a compliment; past simple y past perfect.',
+        ],
+      },
+      {
+        titulo: 'Qué incluye',
+        lista: [
+          'The Empty Chair en versión interactiva (HTML): corrige las partes 2 a 5 y muestra la evidencia del texto. El writing tiene una pestaña por opción, guía de párrafos, contador de palabras, un modelo y un corrector de errores típicos con explicaciones en castellano. Funciona sin conexión.',
+          'The Empty Chair en versión imprimible (Word y PDF), con la misma numeración.',
+          'El examen en dos versiones: estándar y con apoyos, con una columna junto a las líneas que lleva guía de párrafos, formas de empezar y lenguaje útil.',
+          'Clave del examen con la evidencia del texto, rúbrica de writing (5 criterios y 4 niveles) y dos model answers.',
+          'Guía del profesorado en inglés, con la clave de The Empty Chair.',
+        ],
+      },
+    ],
+    faq: [
+      { p: '¿Sirve si uso Options 4?', r: 'Está pensado para usarse en paralelo a la unidad 1 de Options 4. Es material independiente, sin relación con la editorial.' },
+      { p: '¿Hay que instalar algo?', r: 'No. El HTML se abre en cualquier navegador y funciona sin conexión. En Moodle se sube como recurso Archivo con la opción Abrir.' },
+      { p: '¿Se pueden editar los documentos?', r: 'Sí. Los Word son editables y van también en PDF.' },
+      { p: '¿Hay una lección previa?', r: 'Sí. Va a continuación de Two Sides of the Story, una lección gratuita que introduce el tema y el formato.' },
+    ],
+  },
 ];
