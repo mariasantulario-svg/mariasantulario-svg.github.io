@@ -46,7 +46,7 @@ window.productos = [
     { titulo: 'English Activities Workbook · Electrical Internship', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/333940198169814eb895ca7b662ba8b5', area: 'Electricidad y Electrónica', nivel: null, novedad: false },
     { titulo: 'When the Lights Go Out', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/30394019816980cb97ffe24f63081dbf', area: 'Electricidad y Electrónica', nivel: 'GM', novedad: false },
     { titulo: 'Electricity & Electronics · Emergency Procedures', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/31d9401981698042b518e387bc0cd874', area: 'Electricidad y Electrónica', nivel: 'GM', novedad: false },
-    { titulo: "Could Frankenstein's Lab Pass an Electrical Inspection? · Halloween", tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/frankenstein-electricity', area: 'Electricidad y Electrónica', nivel: 'GM', novedad: true },
+    { titulo: "Could Frankenstein's Lab Pass an Electrical Inspection? · Halloween", tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/frankenstein-electricity', area: 'Electricidad y Electrónica', nivel: 'GM', novedad: false },
     { titulo: "Could Frankenstein's Lab Pass an Electrical Inspection? · Halloween", tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/frankenstein-electricity', area: 'Electricidad y Electrónica', nivel: 'GS', novedad: false }, // mismo producto, versión GS
     { titulo: 'English for Electricians · FP Básica · Term 1', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/english-for-electricians', area: 'Electricidad y Electrónica', nivel: 'Básica', novedad: false },
 
@@ -65,6 +65,7 @@ window.productos = [
     // === ESO ===
     { titulo: 'Villains on the Payroll · Inglés 4º ESO B1 · Halloween', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/mnxtaf', area: 'ESO', nivel: null, novedad: true },
     { titulo: 'Aura Farming Classroom Pack · 4º ESO', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/erktjd', area: 'ESO', nivel: null, novedad: false },
+    { titulo: 'Relative Clauses Review Pack · A2+/B1 · Moodle ready', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/nybmwr', area: 'ESO', nivel: null, novedad: true },
 
      // === 1º ESO ATENCIÓN EDUCATIVA ===
     { titulo: 'Juegos de cartas · Sesión completa de Atención Educativa', tipo: 'gratis', enlace: 'https://mariasantulario-svg.github.io/Atencion_Educativa_1ESO_sesion_juegos_de_cartas.docx', area: '1º ESO Atención Educativa', nivel: null, novedad: false },
