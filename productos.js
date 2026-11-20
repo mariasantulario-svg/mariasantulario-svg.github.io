@@ -23,7 +23,6 @@ window.productos = [
     { titulo: 'Faces, Flags & Surveillance · PAU Valencia', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/facesandflags', area: 'PAU', nivel: null, novedad: false },
     { titulo: 'The Fate of Ophelia · PAU', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/gyhpi', area: 'PAU', nivel: null, novedad: false },
     { titulo: 'Playing Small · Simulacro PAU Valencia + Extra Scaffolding', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/euybam', area: 'PAU', nivel: null, novedad: false },
-    { titulo: 'Earning Below Your Rent · Simulacre PAU Catalunya + Extra Scaffolding', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/yowoqg', area: 'PAU', nivel: null, novedad: true },
     { titulo: 'Super Pau Test', tipo: 'gratis', enlace: 'https://mariasantulario-svg.github.io/SuperPau/', area: 'PAU', nivel: null, novedad: false },
     { titulo: 'Simulacro PAU Inglés CV · Aura Farming', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/Aura-Farming-3ce94019816980f2a6cfeded34e46c02', area: 'PAU', nivel: null, novedad: false },
     { titulo: 'Current Affairs PAU Pack · Vol. 1 · PAU Valencia', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/Current-Affairs-PAU-Pack-Vol-1-3dd9401981698150a5d0d6a976ad7a01', area: 'PAU', nivel: null, novedad: false },
@@ -71,4 +70,7 @@ window.productos = [
 
      // === 1º ESO ATENCIÓN EDUCATIVA ===
     { titulo: 'Juegos de cartas · Sesión completa de Atención Educativa', tipo: 'gratis', enlace: 'https://mariasantulario-svg.github.io/Atencion_Educativa_1ESO_sesion_juegos_de_cartas.docx', area: '1º ESO Atención Educativa', nivel: null, novedad: false },
+
+    // === PAU: novedad más reciente (va al final del archivo para salir la primera en What's New) ===
+    { titulo: 'Earning Below Your Rent · Simulacre PAU Catalunya + Extra Scaffolding', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/yowoqg', area: 'PAU', nivel: null, novedad: true },
   ];
