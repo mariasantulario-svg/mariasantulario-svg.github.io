@@ -396,4 +396,46 @@ window.fichas = [
       { p: '¿Hay una lección previa?', r: 'Sí. Va a continuación de Two Sides of the Story, una lección gratuita que introduce el tema y el formato.' },
     ],
   },
+  {
+    enlace: 'https://mariasantuario.gumroad.com/l/yowoqg',
+    slug: 'earning-below-your-rent-pau-catalunya',
+    h1: 'Earning Below Your Rent: simulacro PAU de Inglés de Cataluña con versiones con apoyos y práctica interactiva',
+    meta: 'Simulacro de la PAU de Inglés de Cataluña con texto original sobre el alquiler, dos versiones con apoyos, guía, página interactiva y once bloques de práctica.',
+    etiqueta: 'PAU · Inglés · Cataluña',
+    entradilla: 'Un modelo de examen de Inglés de la PAU de Cataluña (comprensión lectora y expresión escrita) con el mismo formato y los mismos tipos de pregunta que los exámenes oficiales de 2025 y 2026. El texto, Earning Below Your Rent: The Companies That House Their Own Workers, es original y tiene 582 palabras: sueldos que no llegan para pagar el alquiler y empresas que acaban alojando a su plantilla, con casos de Tossa de Mar, Tenerife e Ibiza.',
+    imagen: 'https://public-files.gumroad.com/p95o1aqd0vkvtj4yts01xmpxk1k5',
+    imagenAlt: 'Portada de Earning Below Your Rent, simulacro PAU de Inglés de Cataluña',
+    precio: '4 €',
+    precioNum: '4.00',
+    secciones: [
+      {
+        titulo: 'Contenido',
+        lista: [
+          'Examen estándar: texto con líneas numeradas, glosario, seis preguntas y writing con dos opciones (ensayo de opinión y correo electrónico), con espacio en blanco para responder.',
+          'Extra Scaffolding Edition con resúmenes en catalán: el mismo examen, con las mismas líneas numeradas y las mismas preguntas, y con apoyos integrados. Lleva resumen y glosario después de cada párrafo, una guía de los tipos de pregunta de la PAU, pista e inicio de respuesta en cada pregunta y un plan para el writing.',
+          'Extra Scaffolding Edition con resúmenes en inglés sencillo: igual que la anterior, pero con el resumen de cada párrafo en un inglés más sencillo que el del texto. El resto de apoyos están en catalán.',
+          'Guía del profesorado, en catalán: cómo usar las tres versiones, clave de las seis preguntas con variantes aceptables, criterios de corrección, un writing modelo para cada opción, qué valorar en el writing y las fuentes del texto.',
+          'Página interactiva: un solo archivo HTML que se abre en el navegador, sin instalar nada y sin conexión a internet. Contiene el examen y once bloques de ejercicios, con modo alumnado (comprueba las respuestas y da la puntuación al final) y modo profesorado (para proyectar y mostrar las respuestas una a una).',
+          'Actividades extra: los mismos once bloques en Word para imprimir, con la clave al final. Son vocabulary in context, word formation, collocations, phrasal verbs, set phrases, connectors, passive, relative clauses, cohesion and reference, paraphrase trainer y speaking (debate cards).',
+        ],
+      },
+      {
+        titulo: 'Cómo usarlo',
+        lista: [
+          'Como simulacro: el examen estándar, tal cual.',
+          'Con niveles distintos en la misma aula: las tres versiones comparten la numeración de líneas y las preguntas, de modo que se pueden repartir a la vez y corregir en grupo.',
+          'Para corregir o repasar: la página interactiva proyectada en modo profesorado, o en modo alumnado para que cada cual practique por su cuenta, en clase o en casa.',
+          'Para ampliar: los once bloques de actividades extra, en papel o en la página.',
+        ],
+      },
+    ],
+    faq: [
+      { p: '¿Incluye la comprensión oral?', r: 'No. Incluye las partes 2 y 3 de la prueba (comprensión lectora y expresión escrita); por eso el modelo se puntúa sobre 7 puntos, 3 de comprensión lectora y 4 de expresión escrita.' },
+      { p: '¿Qué se corrige automáticamente en la página interactiva?', r: 'Los bloques 1 a 10, salvo las respuestas abiertas de los bloques 5, 9 y 10, que se comparan con un modelo. El bloque 11 es de expresión oral. De las preguntas del examen, la 4 se corrige en la página y las demás se comparan con la respuesta modelo.' },
+      { p: '¿Hay que instalar algo?', r: 'No. La página interactiva es un solo archivo HTML que se abre en el navegador y funciona sin conexión.' },
+      { p: '¿Se pueden editar los documentos?', r: 'Sí. Los cinco documentos están en Word editable.' },
+      { p: '¿En qué idioma está?', r: 'El texto, las preguntas y la página interactiva están en inglés. Los apoyos de las versiones Extra Scaffolding y la guía del profesorado están en catalán.' },
+      { p: '¿Es un examen oficial?', r: 'No. Es un texto original escrito para este material, con el formato de los exámenes oficiales.' },
+    ],
+  },
 ];
