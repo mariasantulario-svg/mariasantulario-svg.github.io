@@ -23,6 +23,7 @@ window.productos = [
     { titulo: 'Faces, Flags & Surveillance · PAU Valencia', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/facesandflags', area: 'PAU', nivel: null, novedad: false },
     { titulo: 'The Fate of Ophelia · PAU', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/gyhpi', area: 'PAU', nivel: null, novedad: false },
     { titulo: 'Playing Small · Simulacro PAU Valencia + Extra Scaffolding', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/euybam', area: 'PAU', nivel: null, novedad: false },
+    { titulo: 'Earning Below Your Rent · Simulacre PAU Catalunya + Extra Scaffolding', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/yowoqg', area: 'PAU', nivel: null, novedad: true },
     { titulo: 'Super Pau Test', tipo: 'gratis', enlace: 'https://mariasantulario-svg.github.io/SuperPau/', area: 'PAU', nivel: null, novedad: false },
     { titulo: 'Simulacro PAU Inglés CV · Aura Farming', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/Aura-Farming-3ce94019816980f2a6cfeded34e46c02', area: 'PAU', nivel: null, novedad: false },
     { titulo: 'Current Affairs PAU Pack · Vol. 1 · PAU Valencia', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/Current-Affairs-PAU-Pack-Vol-1-3dd9401981698150a5d0d6a976ad7a01', area: 'PAU', nivel: null, novedad: false },
@@ -63,7 +64,7 @@ window.productos = [
     { titulo: 'A Lesson on Labour Rights · Industrial History', tipo: 'gratis', enlace: 'https://fpteachinglab.notion.site/31c9401981698080b148d6a77c6bcb93', area: 'Transversal', nivel: null, novedad: false },
 
     // === ESO ===
-    { titulo: 'Villains on the Payroll · Inglés 4º ESO B1 · Halloween', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/mnxtaf', area: 'ESO', nivel: null, novedad: true },
+    { titulo: 'Villains on the Payroll · Inglés 4º ESO B1 · Halloween', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/mnxtaf', area: 'ESO', nivel: null, novedad: false },
     { titulo: 'Aura Farming Classroom Pack · 4º ESO', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/erktjd', area: 'ESO', nivel: null, novedad: false },
     { titulo: 'Relative Clauses Review Pack · A2+/B1 · Moodle ready', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/nybmwr', area: 'ESO', nivel: null, novedad: true },
     { titulo: 'The Empty Chair · Narrative Writing Pack · Inglés 4º ESO B1', tipo: 'pago', enlace: 'https://mariasantuario.gumroad.com/l/obgddp', area: 'ESO', nivel: null, novedad: true },
