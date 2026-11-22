@@ -438,4 +438,46 @@ window.fichas = [
       { p: '¿Es un examen oficial?', r: 'No. Es un texto original escrito para este material, con el formato de los exámenes oficiales.' },
     ],
   },
+  {
+    enlace: 'https://mariasantuario.gumroad.com/l/yvvtpc',
+    slug: 'earning-below-your-rent-pau-comunitat-valenciana',
+    h1: 'Earning Below Your Rent: simulacro PAU de Inglés de la Comunitat Valenciana con extra scaffolding y práctica interactiva',
+    meta: 'Simulacro de la PAU de Inglés de la Comunitat Valenciana con texto original sobre el alquiler, dos versiones con extra scaffolding, guía, página interactiva y once bloques de práctica.',
+    etiqueta: 'PAU · Inglés · Comunitat Valenciana',
+    entradilla: 'Un modelo de examen de Inglés de la PAU de la Comunitat Valenciana con el formato y los enunciados del examen oficial de 2026: cuatro preguntas de comprensión escrita y una redacción de 130 a 150 palabras con dos temas. El texto, Earning Below Your Rent: The Companies That House Their Own Workers, es original y tiene 396 palabras: sueldos que no llegan para pagar el alquiler y empresas que acaban alojando a su plantilla, con casos de Tossa de Mar, Tenerife e Ibiza.',
+    imagen: 'https://public-files.gumroad.com/csxof0o31f1nu5ymtxr5nuku5xsq',
+    imagenAlt: 'Portada de Earning Below Your Rent, simulacro PAU de Inglés de la Comunitat Valenciana',
+    precio: '4 €',
+    precioNum: '4.00',
+    secciones: [
+      {
+        titulo: 'Contenido',
+        lista: [
+          'Examen estándar: texto, cuatro preguntas y redacción con dos temas (opinión y texto narrativo). Al final lleva el solucionario, los criterios de corrección, una redacción modelo para cada tema y las fuentes del texto.',
+          'Extra Scaffolding Edition con resúmenes en castellano: el mismo texto y las mismas preguntas, con ayuda dentro del propio examen. Lleva resumen y glosario después de cada párrafo, un método en cuatro pasos, una tabla con los tipos de pregunta de la PAU, una pista en cada pregunta, inicio de respuesta en las preguntas 1 y 2, plan y lengua útil para cada tema de redacción y dos listas de comprobación.',
+          'Extra Scaffolding Edition con resúmenes en inglés sencillo: igual que la anterior, pero con el resumen de cada párrafo en un inglés más sencillo que el del texto. Las pistas y las instrucciones están en castellano.',
+          'Guía del profesorado, en castellano: qué contiene el pack, cómo usar las tres versiones, cómo retirar la ayuda de forma gradual y una clave rápida.',
+          'Página interactiva: un solo archivo HTML que se abre en el navegador, sin instalar nada y sin conexión a internet. Contiene el examen y once bloques de ejercicios, con modo alumnado (comprueba las respuestas y da la puntuación al final) y modo profesorado (para proyectar y mostrar las respuestas una a una).',
+          'Actividades extra: los mismos once bloques en Word para imprimir, con la clave al final. Son vocabulary in context, word formation, collocations, phrasal verbs, set phrases, connectors, passive, relative clauses, cohesion and reference, paraphrase trainer y speaking (debate).',
+        ],
+      },
+      {
+        titulo: 'Cómo usarlo',
+        lista: [
+          'Como simulacro: el examen estándar, tal como es.',
+          'Con niveles distintos en la misma aula: las tres versiones tienen los mismos párrafos y las mismas preguntas, de modo que se pueden repartir a la vez y corregir en grupo.',
+          'En papel y con la página: el alumnado hace el examen en papel y se corrige en clase con la página interactiva proyectada en modo profesorado, que muestra las respuestas una a una.',
+          'Para practicar por su cuenta: la página interactiva en modo alumnado, en clase o en casa.',
+          'Para ampliar: los once bloques de actividades extra, en papel o en la página.',
+        ],
+      },
+    ],
+    faq: [
+      { p: '¿Qué se corrige automáticamente en la página interactiva?', r: 'Los bloques 1 a 10, salvo las respuestas abiertas de los bloques 5, 9 y 10, que se comparan con un modelo. El bloque 11 es de expresión oral. De las preguntas del examen, la 1, la 3 y la 4 se corrigen en la página y la 2 se compara con la respuesta modelo.' },
+      { p: '¿Hay que instalar algo?', r: 'No. La página interactiva es un solo archivo HTML que se abre en el navegador y funciona sin conexión.' },
+      { p: '¿Se pueden editar los documentos?', r: 'Sí. Los cinco documentos están en Word editable.' },
+      { p: '¿En qué idioma está?', r: 'El texto, las preguntas y la página interactiva están en inglés. Los resúmenes, las pistas y la guía del profesorado están en castellano; una de las dos versiones Extra Scaffolding lleva los resúmenes en inglés sencillo.' },
+      { p: '¿Es un examen oficial?', r: 'No. Es un texto original escrito para este material, con el formato y los enunciados del examen oficial de 2026.' },
+    ],
+  },
 ];
