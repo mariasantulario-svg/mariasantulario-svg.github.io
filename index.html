@@ -583,7 +583,7 @@ class Component extends DCLogic {
     if(!vigente() || !document.body || document.getElementById('bf2026')) return;
     var w = document.createElement('div');
     w.id = 'bf2026';
-    w.innerHTML = '<a class="bf-sign" href="https://mariasantuario.gumroad.com/" target="_blank" rel="noopener" aria-label="Black Friday: 40 % en toda la tienda con el código BLACK40, hasta el lunes 30"><i class="t"></i><i class="b"></i><i class="l"></i><i class="r"></i><span class="bf-panel"><span class="bf-neon">BLACK</span><span class="bf-neon">FRIDAY</span><span class="bf-main">40 % en toda la tienda</span><span class="bf-code">CÓDIGO BLACK40</span><span class="bf-until">Hasta el lunes 30</span></span></a>';
+    w.innerHTML = '<a class="bf-sign" href="https://mariasantuario.gumroad.com/" target="_blank" rel="noopener" aria-label="Black Friday: 40 % en toda la tienda descuento ya aplicado, hasta el lunes 30"><i class="t"></i><i class="b"></i><i class="l"></i><i class="r"></i><span class="bf-panel"><span class="bf-neon">BLACK</span><span class="bf-neon">FRIDAY</span><span class="bf-main">40 % en toda la tienda</span><span class="bf-code">DESCUENTO YA APLICADO</span><span class="bf-until">Hasta el lunes 30</span></span></a>';
     document.body.insertBefore(w, document.body.firstChild);
   }
   if(!vigente()) return;
